@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreationAPI", "OrderCreationAPI\OrderCreationAPI.csproj", "{DA2C9DF2-9975-4C51-B463-019FD4247F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreationManagers", "OrderCreationManagers\OrderCreationManagers.csproj", "{B3840161-5F00-4756-9994-7090C1BF6B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreationEngines", "OrderCreationEngines\OrderCreationEngines.csproj", "{66B15BF1-C970-4000-9613-DC3BD0EF68B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreationAccessors.SQL", "OrderCreationAccessors\OrderCreationAccessors.SQL.csproj", "{1BEB46D8-E964-49DD-BAB5-A81ECBDF6D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureHosts", "AzureHosts", "{2B449D22-F158-45C4-8434-15F09179CBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreationAccessors.Redis", "OrderCreationAccessors.Redis\OrderCreationAccessors.Redis.csproj", "{8D132426-5017-4E20-9532-ADA551093632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderCreation.Common", "OrderCreation.Common\OrderCreation.Common.csproj", "{39CC4260-CAF2-4E6B-A935-F399604504EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2C9DF2-9975-4C51-B463-019FD4247F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2C9DF2-9975-4C51-B463-019FD4247F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2C9DF2-9975-4C51-B463-019FD4247F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2C9DF2-9975-4C51-B463-019FD4247F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3840161-5F00-4756-9994-7090C1BF6B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3840161-5F00-4756-9994-7090C1BF6B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3840161-5F00-4756-9994-7090C1BF6B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3840161-5F00-4756-9994-7090C1BF6B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B15BF1-C970-4000-9613-DC3BD0EF68B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B15BF1-C970-4000-9613-DC3BD0EF68B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B15BF1-C970-4000-9613-DC3BD0EF68B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B15BF1-C970-4000-9613-DC3BD0EF68B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEB46D8-E964-49DD-BAB5-A81ECBDF6D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEB46D8-E964-49DD-BAB5-A81ECBDF6D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEB46D8-E964-49DD-BAB5-A81ECBDF6D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEB46D8-E964-49DD-BAB5-A81ECBDF6D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D132426-5017-4E20-9532-ADA551093632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D132426-5017-4E20-9532-ADA551093632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D132426-5017-4E20-9532-ADA551093632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D132426-5017-4E20-9532-ADA551093632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CC4260-CAF2-4E6B-A935-F399604504EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CC4260-CAF2-4E6B-A935-F399604504EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CC4260-CAF2-4E6B-A935-F399604504EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CC4260-CAF2-4E6B-A935-F399604504EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA2C9DF2-9975-4C51-B463-019FD4247F23} = {2B449D22-F158-45C4-8434-15F09179CBFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2545F599-E3F4-4619-B6EB-9E0733E5CD3D}
+	EndGlobalSection
+EndGlobal
