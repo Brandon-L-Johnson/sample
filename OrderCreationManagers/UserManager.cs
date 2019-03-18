@@ -20,7 +20,7 @@ namespace OrderCreationManagers
 
         public async Task<List<UserDTO>> ListUsers()
         {
-            var fullList = await _userAccessor.List();
+            var fullList = await _userEngine.ListUsers();
 
             return fullList;
         }

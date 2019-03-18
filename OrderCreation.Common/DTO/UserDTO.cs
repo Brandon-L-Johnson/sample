@@ -9,5 +9,10 @@ namespace OrderCreation.Common.DTO
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<OrderDTO> Orders { get; set; }
+
+        public UserDTO()
+        {
+            UserIdentifier = Guid.NewGuid();
+        }
     }
 }

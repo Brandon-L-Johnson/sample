@@ -2,16 +2,25 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using OrderCreationAccessors.SQL;
 using OrderCreationManagers;
 
 namespace OrderCreationAPI.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
         private UserManager _userManager;
-        
+
+        public UserController()
+        {
+            var userAccessor = new InMemoryUserAccessor();
+            var orderAccessor = new InMemoryOrderAccessor();
+            _userManager = new UserManager(userAccessor, orderAccessor);
+        }
+
         [HttpGet(Name = "ListUsers")]
         public async Task<IActionResult> ListVaults()
         {
